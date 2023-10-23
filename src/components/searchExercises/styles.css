@@ -1,0 +1,18 @@
+button,
+input {
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+button:hover {
+    background-color: transparent !important;
+    border: 1px solid #f0fd00 !important;
+    color: white;
+
+}
+input:hover {
+    border: 1px solid #777 !important;
+}

@@ -1,0 +1,30 @@
+.detail .info ul {
+  font-size: 18px;
+}
+
+.detail .info p {
+  height: 70px !important;
+}
+
+@media screen and (max-width: 991px) {
+  .detail .info ul {
+    font-size: 12px;
+  }
+  .detail .info p {
+    height: 40px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .detail .parent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .detail .parent .image,
+  .detail .parent .info {
+    width: 100% !important;
+  }
+  .detail .info p {
+    height: 60px !important;
+  }
+}

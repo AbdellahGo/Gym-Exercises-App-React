@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 50% !important;
+  }
+}
+
+.media .nav-item .nav-link {
+    width: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.parent-links .routes .nav-item {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.parent-links .routes .nav-item:hover {
+  border-bottom: 1px solid #f0fd00;
+}
+
+.media .nav-item {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.media .nav-item:hover {
+  box-shadow: 0 0 10px 1px #f0fd00;
+}
+
+

@@ -1,0 +1,30 @@
+.pagination .parent {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.pagination .parent::-webkit-scrollbar {
+  height: 10px;
+}
+
+/* Track */
+.pagination .parent::-webkit-scrollbar-track {
+  background: #777;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+/* Handle */
+.pagination .parent::-webkit-scrollbar-thumb {
+  background: #f0fd00;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}

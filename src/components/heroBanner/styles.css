@@ -1,0 +1,51 @@
+
+.text div:first-of-type {
+    height: 190px;
+    z-index: 1;
+    margin-top: 35px;
+}
+.text div:first-of-type p {
+    height: 100%;
+    top: -25px;
+    left: -15px;
+}
+
+
+/* chang position */
+@media screen and (max-width: 768px) {
+    .text div:first-of-type {
+        height: 150px;
+    }
+    .text div:first-of-type p {
+        top: 10px;
+        left: -10px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .text div:first-of-type {
+        height: 90px;
+    }
+    .text div:first-of-type p {
+        top: 20px;
+        left: -5px;
+    }
+}
+
+/* chang font Size */
+@media screen and (max-width: 991px) {
+    .text {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero-banner .text p:last-child {
+        font-size: 120px !important;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .hero-banner .text p:last-child {
+        font-size: 60px !important;
+    }
+}
